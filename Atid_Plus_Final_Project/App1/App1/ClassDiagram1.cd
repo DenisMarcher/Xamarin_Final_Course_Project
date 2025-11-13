@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App1.Admin.AllStudentsListActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAGABAgCAAAEAAACACACAAAASAAAAAAAAEAAA=</HashCode>
+      <FileName>Admin\AllStudentsListActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.FilterListActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBCCACAAIgCBAAEEgACACAKQBBAQAAABAAAAAAAA=</HashCode>
+      <FileName>Admin\FilterListActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.Student" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Admin\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.StudentAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAEAAAAAAEAQAAAAAAAAAAAABAAACAAA=</HashCode>
+      <FileName>Admin\StudentAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.StudentAdapterViewHolder" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Admin\StudentAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.Login" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAAAAAgACgBAAAAQBHBCAAAAAAAAAAggAAEAA=</HashCode>
+      <FileName>LoginAndRegistration\Login.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.Registration" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAFwAAEAAQAABCAFEAACAQAAgkAAgQA=</HashCode>
+      <FileName>LoginAndRegistration\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.MainActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAiAJAIEAAIAAAACAAgAAAAAAAgAAAAAE=</HashCode>
+      <FileName>MainActivities\MainActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.EventListeners.TaskCompletionListeners" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAABAAAAAAACABAAAAAAAAAA=</HashCode>
+      <FileName>EventListeners\TaskCompletionListeners.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.Helpers.AppDataHelper" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIRAAAQIQAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Helpers\AppDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.Helpers.FetchDataSuccesListeners" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\FetchDataSuccesListeners.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App1.Helpers.FirebaseHelper" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\FirebaseHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.Helpers.UserData" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAgAQAAAkAAAAA=</HashCode>
+      <FileName>Helpers\UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.LoginAndRegistration.ForgetPassword_FirstStage" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAAAgABAAAAAAQEAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoginAndRegistration\ForgetPassword_FirstStage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App1.MainActivities.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAgABAIAAAIAAAICAAAAQAAAAAAgAAEAA=</HashCode>
+      <FileName>MainActivities\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

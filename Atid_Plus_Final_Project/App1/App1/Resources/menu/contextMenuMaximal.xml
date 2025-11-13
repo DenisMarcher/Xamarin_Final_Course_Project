@@ -1,0 +1,39 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id ="@+id/thirtyOne"
+		android:title="31"
+		/>
+	<item
+		android:id ="@+id/thirtyTwo"
+		android:title="32"
+		/>
+	<item
+		android:id ="@+id/thirtyThree"
+		android:title="33"
+		/>
+  
+</menu>
+
+<!-- Code to implement into Activity:
+
+Android.Widget.SearchView searchView;
+public override bool OnCreateOptionsMenu(IMenu menu)
+{
+  this.MenuInflater.Inflate(Resource.Menu.menu2, menu);
+
+  var searchItem = menu.FindItem(Resource.Id.action_search);
+
+  searchView = searchItem.ActionProvider.JavaCast<Android.Widget.SearchView>();
+
+  searchView.QueryTextSubmit += (sender, args) =>
+  {
+    Toast.MakeText(this, "You searched: " + args.Query, ToastLength.Short).Show();
+
+  };
+
+
+  return base.OnCreateOptionsMenu(menu);
+}
+
+-->
